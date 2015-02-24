@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
 
   s.require_arc     = true
   s.dependency      = 'SocketRocket', '> 0.2'
-  }
   
   s.source_files    = '*.{h,m}'
 end
