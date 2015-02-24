@@ -6,7 +6,6 @@ Pod::Spec.new do |s|
   s.authors         = { 'Philipp Kyeck' => 'philipp@beta-interactive.de' }
   s.source          = { :git => 'https://github.com/greycats/socket.IO-objc.git', :tag => '0.5.2' }
 
-  s.require_arc     = true
   s.dependency      = 'SocketRocket', '> 0.2'
   
   s.source_files    = '*.{h,m}'
