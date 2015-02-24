@@ -21,6 +21,7 @@
 #import "SocketIO.h"
 #import "SocketIOPacket.h"
 #import "SocketIOJSONSerialization.h"
+#import <NSLogger/NSLogger.h>
 
 #ifdef DEBUG
 #define DEBUG_LOGS 1
@@ -31,7 +32,7 @@
 #endif
 
 #if DEBUG_LOGS
-#define DEBUGLOG(...) NSLog(__VA_ARGS__)
+#define DEBUGLOG(...) LogMessageCompat(__VA_ARGS__)
 #else
 #define DEBUGLOG(...)
 #endif
