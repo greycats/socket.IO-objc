@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name            = 'socket.IO'
+  s.name            = 'socket.IO.i'
   s.version         = '0.5.2'
   s.license         = 'MIT'
   s.summary         = 'socket.io v0.7.2+ for iOS devices.'
