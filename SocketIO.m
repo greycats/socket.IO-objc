@@ -21,14 +21,17 @@
 #import "SocketIO.h"
 #import "SocketIOPacket.h"
 #import "SocketIOJSONSerialization.h"
-#import <NSLogger/NSLogger.h>
 
-#ifdef DEBUG
-#define DEBUG_LOGS 1
-#define DEBUG_CERTIFICATE 1
-#else
+#ifndef RELEASE
+#import <NSLogger/NSLogger.h>
+#endif
+
+#ifdef RELEASE
 #define DEBUG_LOGS 0
 #define DEBUG_CERTIFICATE 0
+#else
+#define DEBUG_LOGS 1
+#define DEBUG_CERTIFICATE 1
 #endif
 
 #if DEBUG_LOGS
