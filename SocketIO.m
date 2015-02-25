@@ -23,7 +23,7 @@
 #import "SocketIOJSONSerialization.h"
 
 #ifndef RELEASE
-#import <NSLogger/NSLogger.h>
+#import <NSLogger/LoggerClient.h>
 #endif
 
 #ifdef RELEASE
