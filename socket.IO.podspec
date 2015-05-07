@@ -10,5 +10,4 @@ Pod::Spec.new do |s|
   s.source_files    = '*.{h,m}'
   s.requires_arc    = true
   s.dependency      'SocketRocket', '~> 0.2'
-  s.dependency      'NSLogger', :git => 'https://github.com/greycats/NSLogger.git'
 end
